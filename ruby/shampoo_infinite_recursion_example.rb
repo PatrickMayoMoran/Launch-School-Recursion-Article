@@ -1,9 +1,9 @@
 def lather
-  'Lathering hair...'
+  puts 'Lathering hair...'
 end
 
 def rinse
-  'Rinsing hair...'
+  puts 'Rinsing hair...'
 end
 
 def repeat
@@ -14,6 +14,7 @@ def shampoo
   lather
   rinse
   repeat
+  puts 'Done! Hair all clean :)'
 end
 
 shampoo
