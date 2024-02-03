@@ -1,9 +1,9 @@
 function lather() {
-  "Lathering hair...";
+  console.log("Lathering hair...");
 }
 
 function rinse() {
-  "Rinsing hair...";
+  console.log("Rinsing hair...");
 }
 
 function repeat() {
@@ -14,6 +14,7 @@ function shampoo() {
   lather();
   rinse();
   repeat();
+  console.log("Done! Hair all clean :)");
 }
 
 shampoo();
