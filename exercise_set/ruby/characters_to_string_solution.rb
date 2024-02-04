@@ -2,7 +2,7 @@ require_relative 'helper_methods'
 
 def make_string(list)
   if list.size == 1
-    return list[0]
+    head(list)
   else
     head(list) + make_string(tail(list))
   end
