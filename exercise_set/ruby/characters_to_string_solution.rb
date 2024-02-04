@@ -1,10 +1,4 @@
-def head(list)
-  list[0]
-end
-
-def tail(list)
-  list[1..]
-end
+require_relative 'helper_methods'
 
 def make_string(list)
   if list.size == 1
