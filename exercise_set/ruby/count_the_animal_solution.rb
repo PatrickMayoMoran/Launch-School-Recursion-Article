@@ -8,6 +8,8 @@ def count_the_animal(animals, animal)
     1 + count_the_animal(tail(animals), animal)
   else
     count_the_animal(tail(animals), animal)
+    # This line could also explicitly include 0, but it's not necessary
+    # 0 + count_the_animal(tail(animals), animal)
   end
 end
 
