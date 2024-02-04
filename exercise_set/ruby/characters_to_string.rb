@@ -26,6 +26,9 @@
 # If you're stumped, check out the characters_to_string_hint.rb file
 # A sample solution is provided in characters_to_string_solution.rb
 
+# Include head and tail helper methods
+require_relative 'helper_methods'
+
 # Your recursive method definition here
 
 # Test cases
