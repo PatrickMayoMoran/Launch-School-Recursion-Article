@@ -10,6 +10,8 @@
 #      towards the base case
 #   3. Calling the method
 #
+# Recursive solutions also - ideally - do not mutate the given inputs.
+#
 #   The three steps above don't necessarily come in that order or each
 #   occupy their own line - some might share lines, you could write the
 #   order differently, etc.
