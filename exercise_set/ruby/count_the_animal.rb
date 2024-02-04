@@ -27,6 +27,9 @@
 # If you're stumped, check out the count_the_animal_hint.rb file
 # A sample solution is provided in count_the_animal_solution.rb
 
+# Include head and tail helper methods
+require_relative 'helper_methods'
+
 animals = [
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard',
             'gecko', 'dog', 'cat', 'mouse', 'moose', 'moose',
@@ -37,21 +40,20 @@ animals = [
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard'
           ]
 
-# Include head and tail helper methods
-require_relative 'helper_methods'
-
 # Your recursive method definition here
 
 # Test cases
-puts count_the_animal(animals, 'cat') 
-puts count_the_animal(animals, 'dog')
-puts count_the_animal(animals, 'narwhwal')
-puts count_the_animal(animals, 'gecko')
+puts count_the_animals([], 'cat') == 0
+puts count_the_animals(animals, 'cat') == 12
+puts count_the_animals(animals, 'dog') == 4
+puts count_the_animals(animals, 'narwhal') == 1
+puts count_the_animals(animals, 'gecko') == 5
+puts count_the_animals(animals, 'llama') == 0
 puts animals == [
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard',
             'gecko', 'dog', 'cat', 'mouse', 'moose', 'moose',
             'bear', 'horse', 'cat', 'lizard', 'gecko', 'lizard',
-            'lizard', 'gecko', 'cat', 'narwhal', 'bear', 'cat',
+            'lizard', 'gecko', 'cat', 'cat', 'bear', 'cat',
             'gecko', 'dog', 'cat', 'mouse', 'moose', 'moose',
             'lizard', 'gecko', 'cat', 'narwhal', 'bear', 'cat',
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard'
