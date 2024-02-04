@@ -43,12 +43,12 @@ animals = [
 # Your recursive method definition here
 
 # Test cases
-puts count_the_animals([], 'cat') == 0
-puts count_the_animals(animals, 'cat') == 12
-puts count_the_animals(animals, 'dog') == 4
-puts count_the_animals(animals, 'narwhal') == 1
-puts count_the_animals(animals, 'gecko') == 5
-puts count_the_animals(animals, 'llama') == 0
+puts count_the_animal([], 'cat') == 0
+puts count_the_animal(animals, 'cat') == 12
+puts count_the_animal(animals, 'dog') == 4
+puts count_the_animal(animals, 'narwhal') == 1
+puts count_the_animal(animals, 'gecko') == 5
+puts count_the_animal(animals, 'llama') == 0
 puts animals == [
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard',
             'gecko', 'dog', 'cat', 'mouse', 'moose', 'moose',
