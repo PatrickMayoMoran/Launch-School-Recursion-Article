@@ -31,7 +31,15 @@
 # counting. But I consider it 'counting' instead of math :)
 
 # Include head and tail helper methods
-require_relative 'helper_methods'
+### Return the first item - or 'head' - of a list
+def head(list)
+  list[0]
+end
+
+### Return the rest of - or 'tail' - of a list
+def tail(list)
+  list[1..]
+end
 
 animals = [
             'cat', 'dog', 'cat', 'cow', 'horse', 'lizard',

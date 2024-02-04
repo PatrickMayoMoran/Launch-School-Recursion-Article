@@ -1,5 +1,10 @@
-# Include head and tail helper methods
-require_relative 'helper_methods'
+def head(list)
+  list[0]
+end
+
+def tail(list)
+  list[1..]
+end
 
 def count_the_animal(animals, animal)
   if animals.empty?

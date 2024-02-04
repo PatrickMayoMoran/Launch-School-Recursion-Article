@@ -1,3 +1,11 @@
+def head(list)
+  list[0]
+end
+
+def tail(list)
+  list[1..]
+end
+
 # HINT: Our base case would be a list with only a single character, like
 one_char = ['T']
 

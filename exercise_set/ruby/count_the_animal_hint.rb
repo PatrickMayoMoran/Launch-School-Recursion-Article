@@ -1,3 +1,11 @@
+def head(list)
+  list[0]
+end
+
+def tail(list)
+  list[1..]
+end
+
 # Our base case is an empty array; what should you return?
 count_the_animal([], 'cat')
 
