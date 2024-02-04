@@ -26,6 +26,9 @@
 # If you're stumped, check out the characters_to_string_hint.rb file
 # A sample solution is provided in characters_to_string_solution.rb
 
+# Your recursive method definition here
+
+# Test cases
 pet = ['T','i','n','y', ' ', 'C', 'a', 't']
 puts make_string(pet) == "Tiny Cat" # test for correct return
 puts pet == ['T','i','n','y', ' ', 'C', 'a', 't'] # test that pet array has not been mutated
